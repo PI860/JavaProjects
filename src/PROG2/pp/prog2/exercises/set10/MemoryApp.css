@@ -1,0 +1,24 @@
+/**
+ * @author Paulina Pyczot
+ * @date 22.05.2023
+ **/
+
+
+/* Aufgabe 4: */
+.root{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: gray;
+    -fx-background-image: url("graphics/background.jpg");
+    -fx-background-size: cover;
+}
+
+.button {
+    -fx-background-color: #f30e36;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-border-color: white;
+    -fx-font-weight: bold;
+}

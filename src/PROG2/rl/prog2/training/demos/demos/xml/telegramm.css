@@ -1,0 +1,48 @@
+telegramm {
+  display: block;
+  background-color: lightgrey;
+  color: black;
+  font-family: monospace;
+  padding: 1em;
+}
+
+nachricht {
+  display: block;
+  margin: .5em;
+  padding: .5em;
+  border: thin solid darkgrey;
+  background-color: yellow;
+  whitespace: normal;
+}
+
+an:before {
+  display: block;
+  color: black;
+  content: "An: ";
+}
+
+von:before {
+  display: block;
+  color: black;
+  content: "Von: ";
+}
+
+betrifft:before {
+  display: block;
+  color: black;
+  content: "Betrifft: ";
+}
+
+an, von, betrifft {
+  display: block;
+  color: blue;
+  font-size: large;
+}
+
+betonung {
+  font-style: italic;
+}
+
+name {
+  font-weight: bold;
+}

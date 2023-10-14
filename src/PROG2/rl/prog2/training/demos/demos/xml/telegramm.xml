@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="telegramm.css"?>
+<!DOCTYPE telegramm
+  SYSTEM "/xml-ressourcen/dtds/telegramm.dtd"
+  [
+    <!ENTITY mein_name "Wally">
+  ]>
+
+<telegramm pri="wichtig">
+  <von>&mein_name;</von>
+  <an>Boss</an>
+  <betrifft>Kaffee-Versorgung</betrifft>
+  <grafik datei-ref="abbildungen/disaster.gif"/>
+  <nachricht>Wegen des Ausfalls des
+  <betonung>Kaffeeautomaten</betonung>
+  sehe ich mich nicht in der Lage, die Deadline einzuhalten.
+  Bitte weisen Sie <name>Dilbert</name> ... </nachricht>
+</telegramm>

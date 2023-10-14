@@ -1,0 +1,10 @@
+<!ELEMENT telegramm (von,an,betrifft,grafik?,nachricht)>
+<!ATTLIST telegramm pri CDATA #IMPLIED>
+<!ELEMENT von (#PCDATA)>
+<!ELEMENT an (#PCDATA)>
+<!ELEMENT betrifft (#PCDATA)>
+<!ELEMENT grafik EMPTY>
+<!ATTLIST grafik datei-ref CDATA #REQUIRED>
+<!ELEMENT nachricht (#PCDATA|betonung|name)*>
+<!ELEMENT betonung (#PCDATA)>
+<!ELEMENT name (#PCDATA)>

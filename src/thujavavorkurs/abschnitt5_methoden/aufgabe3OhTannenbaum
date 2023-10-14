@@ -1,0 +1,23 @@
+package thujavavorkurs.abschnitt5_methoden;
+
+public class ohTannenbaum {
+
+    public static void printCrown (int height) {
+        // int height;
+        // int width = height*2;
+        //for (a = 0; a < height; a++){
+
+        }
+    }
+
+    public static void printStem (int height, int width, int gap) {
+
+    }
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Crown height: ");
+        int crownHeight = scan.nextInt();
+
+    }
+}
