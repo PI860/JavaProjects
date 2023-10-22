@@ -6,6 +6,7 @@ module com.example.javaprojects {
     requires influxdb.client.core;
     requires com.fazecast.jSerialComm;
     requires org.apache.poi.ooxml;
+    requires org.junit.jupiter.api;
     //requires java.datatransfer;
 
     opens PROG2.javaprojects to javafx.fxml;

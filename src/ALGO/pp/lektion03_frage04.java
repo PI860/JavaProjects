@@ -1,4 +1,4 @@
-package ALGO;
+package ALGO.pp;
 
 /**
  * @author Paulina Pyczot
