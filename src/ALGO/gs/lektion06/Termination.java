@@ -1,4 +1,4 @@
-package lektion06;
+package ALGO.gs.lektion06;
 
 import java.util.Arrays;
 

@@ -1,5 +1,5 @@
-package EMS.telemetryServer;
-
-public interface Information {
-
-}
+//package EMS.telemetryServer;
+//
+//public interface Information {
+//
+//}

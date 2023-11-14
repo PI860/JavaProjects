@@ -9,12 +9,36 @@ public class Aufg2_2_Palindroms {
 	 * gegebenen Zeichen gebildet werden k�nnen 
 	 */
 	public static TreeSet<String> palindroms(int length, char[] chSet) {
-		//TODO
-		//TODO
-		//TODO
-		//TODO
-		//TODO
-		return null; 	//TODO
+		TreeSet<String> result = new TreeSet<>();
+		generatePalindromes(length, chSet, "", result);
+		return result;
+	}
+
+	private static void generatePalindromes(int length, char[] chSet, String current, TreeSet<String> result) {
+		if (current.length() == length) {
+			if (isPalindrome(current)) {
+				result.add(current);
+			}
+			return;
+		}
+
+		for (char ch : chSet) {
+			generatePalindromes(length, chSet, current + ch, result);
+		}
+	}
+
+	private static boolean isPalindrome(String s) {
+		int left = 0;
+		int right = s.length() - 1;
+
+		while (left < right) {
+			if (s.charAt(left) != s.charAt(right)) {
+				return false;
+			}
+			left++;
+			right--;
+		}
+		return true;
 	}
 
 	public static void main(String[] args) {
@@ -38,7 +62,7 @@ public class Aufg2_2_Palindroms {
 	private static void demo2() {
 		char[] chSet2 = { '1', '2', '3', '4' };
 
-		System.out.println("chSet2: Palindroms of length 3:");
+		System.out.println("chSet2: Palindroms of length 4:");
 		Set<String> palindroms = palindroms(4, chSet2);
 		for (String p : palindroms) {
 			System.out.println("'" + p + "'");
