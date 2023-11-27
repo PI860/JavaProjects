@@ -1,4 +1,4 @@
-package DAPRO.thisandthatdb;
+package DAPRO.ThisAndThat;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
