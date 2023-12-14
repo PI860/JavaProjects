@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="eclipselink">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/../../jar files/eclipselink" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../jar files/eclipselink" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../jar files/eclipselink" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../jar files/eclipselink" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../jar files/eclipselink" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../jar files/eclipselink" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../jar files/eclipselink" recursive="false" type="SOURCES" />
+  </library>
+</component>

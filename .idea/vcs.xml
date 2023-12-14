@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DAPRO/ThisAndThatJPA2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Test/ThisAndThat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Test/ThisAndThatJPA" vcs="Git" />
   </component>
 </project>

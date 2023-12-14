@@ -1,4 +1,4 @@
-package rl.prog2.training.training230324.training;
+package PROG2.rl.prog2.training.training230324.training;
 
 import java.util.ArrayList;
 import java.util.Collections;

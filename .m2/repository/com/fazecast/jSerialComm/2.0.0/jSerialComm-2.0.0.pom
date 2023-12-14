@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fazecast</groupId>
+  <artifactId>jSerialComm</artifactId>
+  <version>2.0.0</version>
+  <name>jSerialComm</name>
+  <description>A platform-independent serial communications library for Java.</description>
+  <url>http://fazecast.github.io/jSerialComm/</url>
+  <licenses>
+    <license>
+      <name>GNU Lesser GPL, Version 3</name>
+      <url>http://www.gnu.org/licenses/lgpl.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hedgecrw</id>
+      <name>Will Hedgecock</name>
+      <email>will.hedgecock@fazecast.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Fazecast/jSerialComm.git</connection>
+    <developerConnection>scm:git:https://github.com/Fazecast/jSerialComm.git</developerConnection>
+    <url>https://github.com/Fazecast/jSerialComm</url>
+  </scm>
+</project>
